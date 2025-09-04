@@ -1,0 +1,82 @@
+{
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "your-email@gmail.com",
+    "password": "your-app-password"
+  },
+  "marketing": {
+    "campaign_interval": 3600,
+    "max_emails_per_hour": 50,
+    "target_keywords": [
+      "marketing",
+      "sales",
+      "business",
+      "automation",
+      "lead generation"
+    ]
+  },
+  "surveys": {
+    "enabled": true,
+    "platforms": [
+      "surveymonkey",
+      "google_forms",
+      "typeform"
+    ],
+    "auto_respond": true,
+    "response_delay": 30
+  },
+  "social_media": {
+    "platforms": [
+      "twitter",
+      "linkedin",
+      "facebook",
+      "instagram"
+    ],
+    "post_interval": 7200,
+    "hashtags": [
+      "#MarketingBot",
+      "#Automation",
+      "#DigitalMarketing",
+      "#Sales",
+      "#AI"
+    ]
+  },
+  "website_integration": {
+    "subscription_apis": [
+      "mailchimp",
+      "constant_contact",
+      "sendgrid"
+    ],
+    "form_endpoints": [
+      "https://example.com/api/subscribe",
+      "https://landing-page.com/signup"
+    ]
+  },
+  "external_sites": {
+    "survey_sites": [
+      "swagbucks.com",
+      "surveyjunkie.com",
+      "inboxdollars.com"
+    ],
+    "marketing_platforms": [
+      "hootsuite.com",
+      "buffer.com",
+      "sproutsocial.com"
+    ]
+  },
+  "automation": {
+    "work_hours": {
+      "start": "09:00",
+      "end": "17:00"
+    },
+    "timezone": "UTC",
+    "max_daily_actions": 1000,
+    "retry_attempts": 3
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "marketing_bot.log",
+    "max_size_mb": 10
+  }
+}
